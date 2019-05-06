@@ -157,6 +157,8 @@ figure {
 }
 
 .information {
+  position: relative;
+
   display: flex;
 
   padding-top: 1em;
@@ -166,6 +168,11 @@ figure {
   color: #e2e2e2;
 }
 
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
 .information--top {
   justify-content: space-around;
 }
@@ -415,6 +422,11 @@ figure {
 
 .page-text li {
   margin: 1em 0;
+}
+
+.road-photos img {
+  display: block;
+  margin:  0 auto;
 }
 @media (min-width: 768px) {
   .about {
